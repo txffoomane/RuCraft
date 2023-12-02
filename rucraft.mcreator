@@ -9,76 +9,16 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ru_craft"
-    },
-    {
-      "name": "Brickswhite",
-      "type": "block",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "brickswhite",
-      "path": "~/Blocks"
-    },
-    {
-      "name": "Brickswhitestairs",
-      "type": "block",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "brickswhitestairs",
-      "path": "~/Blocks"
-    },
-    {
-      "name": "Brickswhiteslab",
-      "type": "block",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "brickswhiteslab",
-      "path": "~/Blocks"
-    },
-    {
-      "name": "Planksold",
-      "type": "block",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "planksold",
-      "path": "~/Blocks"
-    },
-    {
-      "name": "Roofwithoutshifer",
-      "type": "block",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "roofwithoutshifer",
-      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "ru_ru": {
-      "itemGroup.tabru_craft": "RuCraft",
-      "tile.brickswhitestairs.name": "Ступеньки из белых кирпичей",
-      "tile.brickswhite.name": "Белые кирпичи",
-      "tile.brickswhiteslab.name": "Плита из белых кирпичей",
-      "tile.planksold.name": "Plank sold",
-      "tile.roofwithoutshifer.name": "Roof without shifer"
+      "itemGroup.tabru_craft": "RuCraft"
     },
     "en_us": {
-      "itemGroup.tabru_craft": "RuCraft",
-      "tile.brickswhitestairs.name": "Bricks white stairs",
-      "tile.brickswhite.name": "Bricks white",
-      "tile.brickswhiteslab.name": "Bricks white slab",
-      "tile.planksold.name": "Plank sold",
-      "tile.roofwithoutshifer.name": "Roof without shifer"
+      "itemGroup.tabru_craft": "RuCraft"
     }
   },
   "foldersRoot": {

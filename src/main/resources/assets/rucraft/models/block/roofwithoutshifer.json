@@ -1,8 +1,0 @@
-{
-  "parent": "rucraft:custom/roof_without_shifer",
-  "textures": {
-    "all": "rucraft:blocks/shifer",
-    "particle": "rucraft:blocks/shifer",
-    "0": "rucraft:blocks/planks_old"
-  }
-}

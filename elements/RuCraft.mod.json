@@ -4,7 +4,7 @@
   "definition": {
     "name": "RuCraft",
     "icon": {
-      "value": "CUSTOM:Brickswhite"
+      "value": "Blocks.PLANKS#4"
     },
     "showSearch": false
   }
