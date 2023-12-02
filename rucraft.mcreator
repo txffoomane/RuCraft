@@ -69,9 +69,10 @@
   "workspaceSettings": {
     "modid": "rucraft",
     "modName": "RuCraft",
-    "version": "1.0.0",
-    "author": "Ethan, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "version": "0.0.20a",
+    "description": "https://discord.gg/baKFT47xFQ",
+    "author": "Ethan",
+    "websiteURL": "https://discord.gg/baKFT47xFQ",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -80,6 +81,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.12.2",
+    "credits": "https://discord.gg/baKFT47xFQ",
     "modElementsPackage": "ethan.rucraft",
     "lockBaseModFiles": false
   },
