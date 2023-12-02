@@ -39,6 +39,16 @@
       "ids": {},
       "registry_name": "brickswhiteslab",
       "path": "~/Blocks"
+    },
+    {
+      "name": "Planksold",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "planksold",
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
@@ -48,13 +58,15 @@
       "itemGroup.tabru_craft": "RuCraft",
       "tile.brickswhitestairs.name": "Ступеньки из белых кирпичей",
       "tile.brickswhite.name": "Белые кирпичи",
-      "tile.brickswhiteslab.name": "Плита из белых кирпичей"
+      "tile.brickswhiteslab.name": "Плита из белых кирпичей",
+      "tile.planksold.name": "Plank sold"
     },
     "en_us": {
       "itemGroup.tabru_craft": "RuCraft",
       "tile.brickswhitestairs.name": "Bricks white stairs",
       "tile.brickswhite.name": "Bricks white",
-      "tile.brickswhiteslab.name": "Bricks white slab"
+      "tile.brickswhiteslab.name": "Bricks white slab",
+      "tile.planksold.name": "Plank sold"
     }
   },
   "foldersRoot": {
