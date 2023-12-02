@@ -49,6 +49,16 @@
       "ids": {},
       "registry_name": "planksold",
       "path": "~/Blocks"
+    },
+    {
+      "name": "Roofwithoutshifer",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "roofwithoutshifer",
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
@@ -59,14 +69,16 @@
       "tile.brickswhitestairs.name": "Ступеньки из белых кирпичей",
       "tile.brickswhite.name": "Белые кирпичи",
       "tile.brickswhiteslab.name": "Плита из белых кирпичей",
-      "tile.planksold.name": "Plank sold"
+      "tile.planksold.name": "Plank sold",
+      "tile.roofwithoutshifer.name": "Roof without shifer"
     },
     "en_us": {
       "itemGroup.tabru_craft": "RuCraft",
       "tile.brickswhitestairs.name": "Bricks white stairs",
       "tile.brickswhite.name": "Bricks white",
       "tile.brickswhiteslab.name": "Bricks white slab",
-      "tile.planksold.name": "Plank sold"
+      "tile.planksold.name": "Plank sold",
+      "tile.roofwithoutshifer.name": "Roof without shifer"
     }
   },
   "foldersRoot": {

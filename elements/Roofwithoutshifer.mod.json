@@ -2,15 +2,15 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "planks_old",
+    "texture": "shifer",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
-    "rotationMode": 5,
+    "renderType": 2,
+    "customModelName": "roof_without_shifer:default",
+    "rotationMode": 1,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -19,7 +19,7 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT_MIPPED",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -27,12 +27,12 @@
         "my": 0.0,
         "mz": 0.0,
         "Mx": 1.0,
-        "My": 1.0,
+        "My": 0.0,
         "Mz": 1.0,
         "subtract": false
       }
     ],
-    "name": "Plank sold",
+    "name": "Roof without shifer",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -50,7 +50,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 255,
+    "lightOpacity": 0,
     "material": {
       "value": "WOOD"
     },

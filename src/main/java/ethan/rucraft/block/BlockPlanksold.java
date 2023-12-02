@@ -8,7 +8,9 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 
 import net.minecraft.world.World;
+import net.minecraft.world.IBlockAccess;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.item.ItemBlock;
@@ -20,6 +22,7 @@ import net.minecraft.block.properties.PropertyDirection;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.BlockHorizontal;
 import net.minecraft.block.BlockDirectional;
 import net.minecraft.block.Block;
 
@@ -60,6 +63,27 @@ public class BlockPlanksold extends ElementsRucraftMod.ModElement {
 		}
 
 		@Override
+		public boolean isFullCube(IBlockState state) {
+			return false;
+		}
+
+		@Override
+		public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos) {
+			switch ((EnumFacing) state.getValue(BlockHorizontal.FACING)) {
+				case SOUTH :
+				case NORTH :
+				default :
+					return new AxisAlignedBB(0, 0, 0, 0, 0, 0).union(new AxisAlignedBB(0, 0, 0, 1, 1, 1));
+				case EAST :
+				case WEST :
+					return new AxisAlignedBB(0, 0, 0, 0, 0, 0).union(new AxisAlignedBB(0, 16, 0, 1, 15, 1));
+				case UP :
+				case DOWN :
+					return new AxisAlignedBB(0, 0, 0, 0, 0, 0).union(new AxisAlignedBB(0, 16, 16, 1, 15, 15));
+			}
+		}
+
+		@Override
 		protected net.minecraft.block.state.BlockStateContainer createBlockState() {
 			return new net.minecraft.block.state.BlockStateContainer(this, new IProperty[]{FACING});
 		}
@@ -96,6 +120,11 @@ public class BlockPlanksold extends ElementsRucraftMod.ModElement {
 			else
 				facing = EnumFacing.SOUTH;
 			return this.getDefaultState().withProperty(FACING, facing);
+		}
+
+		@Override
+		public boolean isOpaqueCube(IBlockState state) {
+			return false;
 		}
 	}
 }

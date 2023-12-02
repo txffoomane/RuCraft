@@ -14,6 +14,7 @@ import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.Mirror;
 import net.minecraft.util.EnumFacing;
+import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
 import net.minecraft.entity.EntityLivingBase;
@@ -30,36 +31,43 @@ import ethan.rucraft.creativetab.TabRuCraft;
 import ethan.rucraft.ElementsRucraftMod;
 
 @ElementsRucraftMod.ModElement.Tag
-public class BlockBrickswhite extends ElementsRucraftMod.ModElement {
-	@GameRegistry.ObjectHolder("rucraft:brickswhite")
+public class BlockRoofwithoutshifer extends ElementsRucraftMod.ModElement {
+	@GameRegistry.ObjectHolder("rucraft:roofwithoutshifer")
 	public static final Block block = null;
-	public BlockBrickswhite(ElementsRucraftMod instance) {
-		super(instance, 1);
+	public BlockRoofwithoutshifer(ElementsRucraftMod instance) {
+		super(instance, 6);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("brickswhite"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("roofwithoutshifer"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("rucraft:brickswhite", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0,
+				new ModelResourceLocation("rucraft:roofwithoutshifer", "inventory"));
 	}
 	public static class BlockCustom extends Block {
 		public static final PropertyDirection FACING = BlockHorizontal.FACING;
 		public BlockCustom() {
-			super(Material.ROCK);
-			setUnlocalizedName("brickswhite");
-			setSoundType(SoundType.STONE);
+			super(Material.WOOD);
+			setUnlocalizedName("roofwithoutshifer");
+			setSoundType(SoundType.WOOD);
 			setHardness(1F);
 			setResistance(10F);
 			setLightLevel(0F);
-			setLightOpacity(255);
+			setLightOpacity(0);
 			setCreativeTab(TabRuCraft.tab);
 			this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
+		}
+
+		@SideOnly(Side.CLIENT)
+		@Override
+		public BlockRenderLayer getBlockLayer() {
+			return BlockRenderLayer.CUTOUT_MIPPED;
 		}
 
 		@Override
@@ -72,15 +80,16 @@ public class BlockBrickswhite extends ElementsRucraftMod.ModElement {
 			switch ((EnumFacing) state.getValue(BlockHorizontal.FACING)) {
 				case SOUTH :
 				default :
-					return new AxisAlignedBB(0, 0, 0, 0, 0, 0).union(new AxisAlignedBB(14, 2, 14, 15, 1, 15));
+					return new AxisAlignedBB(0, 0, 0, 0, 0, 0).union(new AxisAlignedBB(0, 0, 0, 1, 0.5, 1));
 				case NORTH :
-					return new AxisAlignedBB(0, 0, 0, 0, 0, 0).union(new AxisAlignedBB(2, 2, 2, 1, 1, 1));
+					return new AxisAlignedBB(0, 0, 0, 0, 0, 0).union(new AxisAlignedBB(0, 0, 0, 1, 0.5, 1));
 				case EAST :
-					return new AxisAlignedBB(0, 0, 0, 0, 0, 0).union(new AxisAlignedBB(14, 2, 2, 15, 1, 1));
+					return new AxisAlignedBB(0, 0, 0, 0, 0, 0).union(new AxisAlignedBB(0, 0, 0, 1, 0.5, 1));
 				case WEST :
-					return new AxisAlignedBB(0, 0, 0, 0, 0, 0).union(new AxisAlignedBB(2, 2, 14, 1, 1, 15));
+					return new AxisAlignedBB(0, 0, 0, 0, 0, 0).union(new AxisAlignedBB(0, 0, 0, 1, 0.5, 1));
 			}
 		}
+
 
 		@Override
 		protected net.minecraft.block.state.BlockStateContainer createBlockState() {
