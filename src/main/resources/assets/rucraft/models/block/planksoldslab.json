@@ -1,0 +1,8 @@
+{
+  "parent": "block/half_slab",
+  "textures": {
+    "bottom": "rucraft:blocks/planks_old",
+    "top": "rucraft:blocks/planks_old",
+    "side": "rucraft:blocks/planks_old"
+  }
+}

@@ -4,21 +4,165 @@
     {
       "name": "RuCraft",
       "type": "tab",
-      "sortid": 4,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "ru_craft"
+    },
+    {
+      "name": "Brickswhite",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brickswhite",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Brickswhitestairs",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brickswhitestairs",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Brickswhiteslab",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brickswhiteslab",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Bricksred",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bricksred",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Bricksredstairs",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bricksredstairs",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Bricksredslab",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bricksredslab",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Planksold",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "planksold",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Planksoldstairs",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "planksoldstairs",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Planksoldslab",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "planksoldslab",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Concretepaintedblue",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "concretepaintedblue",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Concretepaintedbluestairs",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "concretepaintedbluestairs",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Concretepaintedblueslab",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "concretepaintedblueslab",
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "ru_ru": {
-      "itemGroup.tabru_craft": "RuCraft"
+      "tile.bricksredslab.name": "Плита из красного кирпича",
+      "tile.planksoldslab.name": "Плита из старых досок",
+      "tile.brickswhite.name": "Белые кирпичи",
+      "tile.brickswhiteslab.name": "Плита из белого кирпича",
+      "tile.planksold.name": "Старые доски",
+      "tile.bricksredstairs.name": "Ступеньки из красных кирпичей",
+      "tile.concretepaintedblueslab.name": "Concrete painted blue slab",
+      "itemGroup.tabru_craft": "RuCraft",
+      "tile.brickswhitestairs.name": "Ступеньки из белых кирпичей",
+      "tile.concretepaintedblue.name": "Concrete painted blue",
+      "tile.planksoldstairs.name": "Ступеньки из старых досок",
+      "tile.concretepaintedbluestairs.name": "Ступеньки из крашеного синего бетона",
+      "tile.bricksred.name": "Красные кирпичи"
     },
     "en_us": {
-      "itemGroup.tabru_craft": "RuCraft"
+      "tile.bricksredslab.name": "Bricks red slab",
+      "tile.planksoldslab.name": "Planks old slab",
+      "tile.brickswhite.name": "Bricks white",
+      "tile.brickswhiteslab.name": "Bricks white slab",
+      "tile.planksold.name": "Planks old",
+      "tile.bricksredstairs.name": "Bricks red stairs",
+      "tile.concretepaintedblueslab.name": "Concrete painted blue slab",
+      "itemGroup.tabru_craft": "RuCraft",
+      "tile.brickswhitestairs.name": "Bricks white stairs",
+      "tile.concretepaintedblue.name": "Concrete painted blue",
+      "tile.planksoldstairs.name": "Planks old stairs",
+      "tile.concretepaintedbluestairs.name": "Concrete painted blue stairs",
+      "tile.bricksred.name": "Bricks red"
     }
   },
   "foldersRoot": {

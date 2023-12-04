@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "rucraft:planksoldslab_double"
+    }
+  }
+}

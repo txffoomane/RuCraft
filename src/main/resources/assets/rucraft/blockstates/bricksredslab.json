@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "rucraft:bricksredslab"
+    },
+    "half=top,variant=default": {
+      "model": "rucraft:bricksredslab_top"
+    }
+  }
+}

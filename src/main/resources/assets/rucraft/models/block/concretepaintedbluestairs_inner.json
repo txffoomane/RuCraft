@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "rucraft:blocks/concrete_painted_blue",
+    "top": "rucraft:blocks/concrete_painted_blue",
+    "side": "rucraft:blocks/concrete_painted_blue"
+  }
+}
