@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "rucraft:osbslab"
+    },
+    "half=top,variant=default": {
+      "model": "rucraft:osbslab_top"
+    }
+  }
+}

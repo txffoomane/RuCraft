@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "rucraft:metalrust"
+    },
+    "facing=north": {
+      "model": "rucraft:metalrust"
+    },
+    "facing=east": {
+      "model": "rucraft:metalrust",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rucraft:metalrust",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rucraft:metalrust",
+      "y": 270
+    }
+  }
+}

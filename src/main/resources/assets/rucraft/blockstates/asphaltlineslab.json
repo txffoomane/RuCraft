@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "rucraft:asphaltlineslab"
+    },
+    "half=top,variant=default": {
+      "model": "rucraft:asphaltlineslab_top"
+    }
+  }
+}

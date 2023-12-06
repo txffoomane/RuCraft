@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "rucraft:blocks/cinderblock",
+    "top": "rucraft:blocks/cinderblock",
+    "side": "rucraft:blocks/cinderblock"
+  }
+}

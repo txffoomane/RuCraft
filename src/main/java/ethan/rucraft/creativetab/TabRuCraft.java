@@ -13,7 +13,7 @@ import ethan.rucraft.ElementsRucraftMod;
 @ElementsRucraftMod.ModElement.Tag
 public class TabRuCraft extends ElementsRucraftMod.ModElement {
 	public TabRuCraft(ElementsRucraftMod instance) {
-		super(instance, 10);
+		super(instance, 56);
 	}
 
 	@Override

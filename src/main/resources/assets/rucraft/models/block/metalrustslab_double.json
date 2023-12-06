@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rucraft:blocks/metal_rust",
+    "particle": "rucraft:blocks/metal_rust"
+  }
+}

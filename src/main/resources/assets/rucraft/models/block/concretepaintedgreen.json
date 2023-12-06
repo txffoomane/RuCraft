@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rucraft:blocks/concrete_painted_green",
+    "up": "rucraft:blocks/concrete_painted_green",
+    "north": "rucraft:blocks/concrete_painted_green",
+    "east": "rucraft:blocks/concrete_painted_green",
+    "south": "rucraft:blocks/concrete_painted_green",
+    "west": "rucraft:blocks/concrete_painted_green",
+    "particle": "rucraft:blocks/concrete_painted_green"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/upper_slab",
+  "textures": {
+    "bottom": "rucraft:blocks/concrete_painted_green",
+    "top": "rucraft:blocks/concrete_painted_green",
+    "side": "rucraft:blocks/concrete_painted_green"
+  }
+}

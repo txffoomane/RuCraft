@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "rucraft:blocks/concrete_painted_red",
+    "top": "rucraft:blocks/concrete_painted_red",
+    "side": "rucraft:blocks/concrete_painted_red"
+  }
+}

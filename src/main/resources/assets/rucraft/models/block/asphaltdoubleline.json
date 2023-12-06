@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rucraft:blocks/asphalt_double_line",
+    "up": "rucraft:blocks/asphalt_double_line",
+    "north": "rucraft:blocks/asphalt_double_line",
+    "east": "rucraft:blocks/asphalt",
+    "south": "rucraft:blocks/asphalt_double_line",
+    "west": "rucraft:blocks/asphalt",
+    "particle": "rucraft:blocks/asphalt_double_line"
+  }
+}

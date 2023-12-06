@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "rucraft:metalrustslab"
+    },
+    "half=top,variant=default": {
+      "model": "rucraft:metalrustslab_top"
+    }
+  }
+}

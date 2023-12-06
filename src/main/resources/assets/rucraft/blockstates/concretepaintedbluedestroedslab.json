@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "rucraft:concretepaintedbluedestroedslab"
+    },
+    "half=top,variant=default": {
+      "model": "rucraft:concretepaintedbluedestroedslab_top"
+    }
+  }
+}

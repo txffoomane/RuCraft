@@ -23,7 +23,7 @@ public class BlockConcretepaintedbluestairs extends ElementsRucraftMod.ModElemen
 	@GameRegistry.ObjectHolder("rucraft:concretepaintedbluestairs")
 	public static final Block block = null;
 	public BlockConcretepaintedbluestairs(ElementsRucraftMod instance) {
-		super(instance, 12);
+		super(instance, 10);
 	}
 
 	@Override

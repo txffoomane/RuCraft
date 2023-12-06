@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rucraft:blocks/concrete_painted_white_destroed",
+    "particle": "rucraft:blocks/concrete_painted_white_destroed"
+  }
+}

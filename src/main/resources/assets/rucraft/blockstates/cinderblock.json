@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "rucraft:cinderblock"
+    },
+    "facing=north": {
+      "model": "rucraft:cinderblock"
+    },
+    "facing=east": {
+      "model": "rucraft:cinderblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rucraft:cinderblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rucraft:cinderblock",
+      "y": 270
+    }
+  }
+}

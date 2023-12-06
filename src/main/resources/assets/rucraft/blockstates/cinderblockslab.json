@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "rucraft:cinderblockslab"
+    },
+    "half=top,variant=default": {
+      "model": "rucraft:cinderblockslab_top"
+    }
+  }
+}

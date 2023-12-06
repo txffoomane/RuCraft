@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "rucraft:concretepaintedgreenslab"
+    },
+    "half=top,variant=default": {
+      "model": "rucraft:concretepaintedgreenslab_top"
+    }
+  }
+}

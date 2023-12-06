@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "rucraft:concretepaintedwhite"
+    },
+    "facing=north": {
+      "model": "rucraft:concretepaintedwhite"
+    },
+    "facing=east": {
+      "model": "rucraft:concretepaintedwhite",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rucraft:concretepaintedwhite",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rucraft:concretepaintedwhite",
+      "y": 270
+    }
+  }
+}

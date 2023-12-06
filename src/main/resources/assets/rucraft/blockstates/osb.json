@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "rucraft:osb"
+    },
+    "facing=north": {
+      "model": "rucraft:osb"
+    },
+    "facing=east": {
+      "model": "rucraft:osb",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rucraft:osb",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rucraft:osb",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "rucraft:asphaltdoubleline"
+    },
+    "facing=north": {
+      "model": "rucraft:asphaltdoubleline"
+    },
+    "facing=east": {
+      "model": "rucraft:asphaltdoubleline",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rucraft:asphaltdoubleline",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rucraft:asphaltdoubleline",
+      "y": 270
+    }
+  }
+}

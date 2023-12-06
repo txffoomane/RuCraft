@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rucraft:blocks/osb",
+    "particle": "rucraft:blocks/osb"
+  }
+}
