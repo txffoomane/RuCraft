@@ -1,21 +1,21 @@
 {
   "variants": {
     "normal": {
-      "model": "rucraft:wallpaper"
+      "model": "rucraft:sidewalk"
     },
     "facing=north": {
-      "model": "rucraft:wallpaper"
+      "model": "rucraft:sidewalk"
     },
     "facing=east": {
-      "model": "rucraft:wallpaper",
+      "model": "rucraft:sidewalk",
       "y": 90
     },
     "facing=south": {
-      "model": "rucraft:wallpaper",
+      "model": "rucraft:sidewalk",
       "y": 180
     },
     "facing=west": {
-      "model": "rucraft:wallpaper",
+      "model": "rucraft:sidewalk",
       "y": 270
     }
   }

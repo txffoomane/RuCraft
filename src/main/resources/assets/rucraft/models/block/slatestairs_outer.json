@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "rucraft:blocks/slate",
+    "top": "rucraft:blocks/slate",
+    "side": "rucraft:blocks/slate"
+  }
+}

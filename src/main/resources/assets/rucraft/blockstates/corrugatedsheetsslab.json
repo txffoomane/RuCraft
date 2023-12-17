@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "rucraft:corrugatedsheetsslab"
+    },
+    "half=top,variant=default": {
+      "model": "rucraft:corrugatedsheetsslab_top"
+    }
+  }
+}

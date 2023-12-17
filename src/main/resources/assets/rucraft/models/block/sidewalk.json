@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rucraft:blocks/sidewalk",
+    "up": "rucraft:blocks/sidewalk",
+    "north": "rucraft:blocks/sidewalk",
+    "east": "rucraft:blocks/sidewalk",
+    "south": "rucraft:blocks/sidewalk",
+    "west": "rucraft:blocks/sidewalk",
+    "particle": "rucraft:blocks/sidewalk"
+  }
+}

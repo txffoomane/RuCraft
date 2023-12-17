@@ -2,19 +2,20 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "asphalt_line",
-    "textureTop": "asphalt_line",
-    "textureLeft": "asphalt",
-    "textureFront": "asphalt_line",
-    "textureRight": "asphalt",
-    "textureBack": "asphalt_line",
-    "renderType": 10,
-    "customModelName": "Normal",
-    "rotationMode": 1,
+    "texture": "corrugated_sheets",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
+    "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "Stairs",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -32,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Asphalt line",
+    "name": "Corrugated sheets stairs",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -52,7 +53,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "IRON"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -72,7 +73,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "METAL"
     },
     "luminance": 0,
     "unbreakable": false,

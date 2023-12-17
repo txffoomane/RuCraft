@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "rucraft:blocks/corrugated_sheets",
+    "top": "rucraft:blocks/corrugated_sheets",
+    "side": "rucraft:blocks/corrugated_sheets"
+  }
+}

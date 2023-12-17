@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "rucraft:corrugatedsheets"
+    },
+    "facing=south": {
+      "model": "rucraft:corrugatedsheets"
+    },
+    "facing=north": {
+      "model": "rucraft:corrugatedsheets"
+    },
+    "facing=east": {
+      "model": "rucraft:corrugatedsheets",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "rucraft:corrugatedsheets",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "rucraft:corrugatedsheets",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "rucraft:corrugatedsheets",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

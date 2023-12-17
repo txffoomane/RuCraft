@@ -28,29 +28,29 @@ import ethan.rucraft.creativetab.TabRuCraft;
 import ethan.rucraft.ElementsRucraftMod;
 
 @ElementsRucraftMod.ModElement.Tag
-public class BlockAsphaltline extends ElementsRucraftMod.ModElement {
-	@GameRegistry.ObjectHolder("rucraft:asphaltline")
+public class BlockSidewalk extends ElementsRucraftMod.ModElement {
+	@GameRegistry.ObjectHolder("rucraft:sidewalk")
 	public static final Block block = null;
-	public BlockAsphaltline(ElementsRucraftMod instance) {
-		super(instance, 46);
+	public BlockSidewalk(ElementsRucraftMod instance) {
+		super(instance, 60);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("asphaltline"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("sidewalk"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("rucraft:asphaltline", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("rucraft:sidewalk", "inventory"));
 	}
 	public static class BlockCustom extends Block {
 		public static final PropertyDirection FACING = BlockHorizontal.FACING;
 		public BlockCustom() {
 			super(Material.ROCK);
-			setUnlocalizedName("asphaltline");
+			setUnlocalizedName("sidewalk");
 			setSoundType(SoundType.STONE);
 			setHardness(1F);
 			setResistance(10F);

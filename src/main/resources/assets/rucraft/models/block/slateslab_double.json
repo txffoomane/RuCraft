@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rucraft:blocks/slate",
+    "particle": "rucraft:blocks/slate"
+  }
+}

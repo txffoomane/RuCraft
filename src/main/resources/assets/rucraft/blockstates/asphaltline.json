@@ -17,14 +17,6 @@
     "facing=west": {
       "model": "rucraft:asphaltline",
       "y": 270
-    },
-    "facing=up": {
-      "model": "rucraft:asphaltline",
-      "x": 270
-    },
-    "facing=down": {
-      "model": "rucraft:asphaltline",
-      "x": 90
     }
   }
 }

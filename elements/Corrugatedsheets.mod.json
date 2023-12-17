@@ -2,7 +2,7 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "wallpaper_1",
+    "texture": "corrugated_sheets",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -10,7 +10,7 @@
     "textureBack": "",
     "renderType": 11,
     "customModelName": "Single texture",
-    "rotationMode": 1,
+    "rotationMode": 5,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Wallpaper",
+    "name": "Corrugated sheets",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -52,7 +52,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "CLOTH"
+      "value": "IRON"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -72,7 +72,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "CLOTH"
+      "value": "METAL"
     },
     "luminance": 0,
     "unbreakable": false,

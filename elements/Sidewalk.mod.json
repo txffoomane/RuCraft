@@ -2,12 +2,12 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "asphalt_line",
-    "textureTop": "asphalt_line",
-    "textureLeft": "asphalt",
-    "textureFront": "asphalt_line",
-    "textureRight": "asphalt",
-    "textureBack": "asphalt_line",
+    "texture": "sidewalk",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 1,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Asphalt line",
+    "name": "Sidewalk",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
