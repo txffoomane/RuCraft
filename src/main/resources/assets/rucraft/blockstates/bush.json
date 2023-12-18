@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "rucraft:bush"
+    },
+    "facing=north": {
+      "model": "rucraft:bush"
+    },
+    "facing=east": {
+      "model": "rucraft:bush",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rucraft:bush",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rucraft:bush",
+      "y": 270
+    }
+  }
+}

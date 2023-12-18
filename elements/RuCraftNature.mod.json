@@ -2,9 +2,9 @@
   "_fv": 18,
   "_type": "tab",
   "definition": {
-    "name": "RuCraft:Blocks",
+    "name": "RuCraft: Nature",
     "icon": {
-      "value": "CUSTOM:Brickswhite"
+      "value": "Blocks.LEAVES#2"
     },
     "showSearch": false
   }
