@@ -5,15 +5,15 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.fml.relauncher.Side;
 
 import net.minecraft.item.ItemStack;
-import net.minecraft.init.Blocks;
 import net.minecraft.creativetab.CreativeTabs;
 
+import ethan.rucraft.block.BlockBush;
 import ethan.rucraft.ElementsRucraftMod;
 
 @ElementsRucraftMod.ModElement.Tag
 public class TabRuCraftNature extends ElementsRucraftMod.ModElement {
 	public TabRuCraftNature(ElementsRucraftMod instance) {
-		super(instance, 66);
+		super(instance, 75);
 	}
 
 	@Override
@@ -22,7 +22,7 @@ public class TabRuCraftNature extends ElementsRucraftMod.ModElement {
 			@SideOnly(Side.CLIENT)
 			@Override
 			public ItemStack getTabIconItem() {
-				return new ItemStack(Blocks.LEAVES, (int) (1), 2);
+				return new ItemStack(BlockBush.block, (int) (1));
 			}
 
 			@SideOnly(Side.CLIENT)

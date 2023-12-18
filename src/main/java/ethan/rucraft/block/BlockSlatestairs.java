@@ -23,7 +23,7 @@ public class BlockSlatestairs extends ElementsRucraftMod.ModElement {
 	@GameRegistry.ObjectHolder("rucraft:slatestairs")
 	public static final Block block = null;
 	public BlockSlatestairs(ElementsRucraftMod instance) {
-		super(instance, 64);
+		super(instance, 62);
 	}
 
 	@Override

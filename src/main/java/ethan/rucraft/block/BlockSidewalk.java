@@ -32,7 +32,7 @@ public class BlockSidewalk extends ElementsRucraftMod.ModElement {
 	@GameRegistry.ObjectHolder("rucraft:sidewalk")
 	public static final Block block = null;
 	public BlockSidewalk(ElementsRucraftMod instance) {
-		super(instance, 60);
+		super(instance, 58);
 	}
 
 	@Override

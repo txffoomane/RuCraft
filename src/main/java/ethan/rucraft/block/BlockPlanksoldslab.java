@@ -37,7 +37,7 @@ public class BlockPlanksoldslab extends ElementsRucraftMod.ModElement {
 	@GameRegistry.ObjectHolder("rucraft:planksoldslab_double")
 	public static final Block block_slab_double = null;
 	public BlockPlanksoldslab(ElementsRucraftMod instance) {
-		super(instance, 9);
+		super(instance, 10);
 	}
 
 	@Override

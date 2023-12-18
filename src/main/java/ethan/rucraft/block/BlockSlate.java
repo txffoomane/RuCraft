@@ -31,7 +31,7 @@ public class BlockSlate extends ElementsRucraftMod.ModElement {
 	@GameRegistry.ObjectHolder("rucraft:slate")
 	public static final Block block = null;
 	public BlockSlate(ElementsRucraftMod instance) {
-		super(instance, 63);
+		super(instance, 61);
 	}
 
 	@Override

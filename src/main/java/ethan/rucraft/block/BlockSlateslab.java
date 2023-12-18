@@ -37,7 +37,7 @@ public class BlockSlateslab extends ElementsRucraftMod.ModElement {
 	@GameRegistry.ObjectHolder("rucraft:slateslab_double")
 	public static final Block block_slab_double = null;
 	public BlockSlateslab(ElementsRucraftMod instance) {
-		super(instance, 65);
+		super(instance, 63);
 	}
 
 	@Override

@@ -31,7 +31,7 @@ public class BlockCorrugatedsheets extends ElementsRucraftMod.ModElement {
 	@GameRegistry.ObjectHolder("rucraft:corrugatedsheets")
 	public static final Block block = null;
 	public BlockCorrugatedsheets(ElementsRucraftMod instance) {
-		super(instance, 57);
+		super(instance, 55);
 	}
 
 	@Override

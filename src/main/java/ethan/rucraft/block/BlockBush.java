@@ -27,7 +27,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockHorizontal;
 import net.minecraft.block.Block;
 
-import ethan.rucraft.creativetab.TabRuCraft;
+import ethan.rucraft.creativetab.TabRuCraftNature;
 import ethan.rucraft.ElementsRucraftMod;
 
 @ElementsRucraftMod.ModElement.Tag
@@ -35,7 +35,7 @@ public class BlockBush extends ElementsRucraftMod.ModElement {
 	@GameRegistry.ObjectHolder("rucraft:bush")
 	public static final Block block = null;
 	public BlockBush(ElementsRucraftMod instance) {
-		super(instance, 67);
+		super(instance, 73);
 	}
 
 	@Override
@@ -59,14 +59,14 @@ public class BlockBush extends ElementsRucraftMod.ModElement {
 			setResistance(10F);
 			setLightLevel(0F);
 			setLightOpacity(0);
-			setCreativeTab(TabRuCraft.tab);
+			setCreativeTab(TabRuCraftNature.tab);
 			this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
 		}
 
 		@SideOnly(Side.CLIENT)
 		@Override
 		public BlockRenderLayer getBlockLayer() {
-			return BlockRenderLayer.TRANSLUCENT;
+			return BlockRenderLayer.CUTOUT_MIPPED;
 		}
 
 		@Override
@@ -119,6 +119,11 @@ public class BlockBush extends ElementsRucraftMod.ModElement {
 		@Override
 		public boolean isOpaqueCube(IBlockState state) {
 			return false;
+		}
+
+		@Override
+		public Block.EnumOffsetType getOffsetType() {
+			return Block.EnumOffsetType.XZ;
 		}
 	}
 }

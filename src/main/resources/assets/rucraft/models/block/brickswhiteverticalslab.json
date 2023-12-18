@@ -1,0 +1,8 @@
+{
+  "parent": "block/half_slab",
+  "textures": {
+    "bottom": "rucraft:blocks/bricks_white_vertical",
+    "top": "rucraft:blocks/bricks_white_vertical",
+    "side": "rucraft:blocks/bricks_white_vertical"
+  }
+}

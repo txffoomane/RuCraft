@@ -19,7 +19,7 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "TRANSLUCENT",
+    "transparencyType": "CUTOUT_MIPPED",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -39,7 +39,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:RuCraft"
+      "value": "CUSTOM:RuCraftNature"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -61,13 +61,13 @@
     "creativePickItem": {
       "value": ""
     },
-    "offsetType": "NONE",
+    "offsetType": "XZ",
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
-    "speedFactor": 0.4,
+    "speedFactor": 2.0,
     "jumpFactor": 0.5,
     "reactionToPushing": "NORMAL",
     "isNotColidable": true,

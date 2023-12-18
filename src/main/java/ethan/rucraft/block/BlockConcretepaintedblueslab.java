@@ -37,7 +37,7 @@ public class BlockConcretepaintedblueslab extends ElementsRucraftMod.ModElement 
 	@GameRegistry.ObjectHolder("rucraft:concretepaintedblueslab_double")
 	public static final Block block_slab_double = null;
 	public BlockConcretepaintedblueslab(ElementsRucraftMod instance) {
-		super(instance, 11);
+		super(instance, 12);
 	}
 
 	@Override
