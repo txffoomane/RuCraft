@@ -1,8 +1,0 @@
-{
-  "parent": "rucraft:custom/bush",
-  "textures": {
-    "all": "rucraft:blocks/bush",
-    "particle": "rucraft:blocks/bush",
-    "0": "rucraft:blocks/bush"
-  }
-}

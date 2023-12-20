@@ -4,7 +4,7 @@
   "definition": {
     "name": "RuCraft: Nature",
     "icon": {
-      "value": "CUSTOM:Bush"
+      "value": "Blocks.LOG#1"
     },
     "showSearch": false
   }

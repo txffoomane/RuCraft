@@ -650,16 +650,6 @@
       "registry_name": "ru_craft_nature"
     },
     {
-      "name": "Bush",
-      "type": "block",
-      "sortid": 73,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bush",
-      "path": "~/Blocks"
-    },
-    {
       "name": "Linoleum",
       "type": "block",
       "sortid": 64,
@@ -799,7 +789,6 @@
       "tile.cinderblockstairs.name": "Ступеньки из шлакоблока",
       "tile.concrete.name": "Бетон",
       "tile.corrugatedsheets.name": "Профнастил",
-      "tile.bush.name": "Куст",
       "tile.brickswhite.name": "Белые кирпичи",
       "tile.metalrustslab.name": "Ступеньки из ржавого метала ",
       "tile.sidewalkstairs.name": "Ступеньки из тротуара",
@@ -876,7 +865,6 @@
       "tile.concretepaintedreddestroed.name": "Concrete painted red destroed",
       "tile.concrete.name": "Concrete",
       "tile.corrugatedsheets.name": "Corrugated sheets",
-      "tile.bush.name": "Bush",
       "tile.brickswhite.name": "Bricks white",
       "tile.metalrustslab.name": "Metal rust stairs",
       "tile.sidewalkstairs.name": "Sidewalk stairs",

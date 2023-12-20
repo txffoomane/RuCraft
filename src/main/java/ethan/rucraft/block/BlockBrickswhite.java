@@ -10,7 +10,6 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
-import net.minecraft.util.Mirror;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
@@ -21,7 +20,7 @@ import net.minecraft.block.properties.PropertyDirection;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
-import net.minecraft.block.BlockHorizontal;
+import net.minecraft.block.BlockDirectional;
 import net.minecraft.block.Block;
 
 import ethan.rucraft.creativetab.TabRuCraft;
@@ -47,7 +46,7 @@ public class BlockBrickswhite extends ElementsRucraftMod.ModElement {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("rucraft:brickswhite", "inventory"));
 	}
 	public static class BlockCustom extends Block {
-		public static final PropertyDirection FACING = BlockHorizontal.FACING;
+		public static final PropertyDirection FACING = BlockDirectional.FACING;
 		public BlockCustom() {
 			super(Material.ROCK);
 			setUnlocalizedName("brickswhite");
@@ -57,7 +56,7 @@ public class BlockBrickswhite extends ElementsRucraftMod.ModElement {
 			setLightLevel(0F);
 			setLightOpacity(255);
 			setCreativeTab(TabRuCraft.tab);
-			this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
+			this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.SOUTH));
 		}
 
 		@Override
@@ -67,12 +66,14 @@ public class BlockBrickswhite extends ElementsRucraftMod.ModElement {
 
 		@Override
 		public IBlockState withRotation(IBlockState state, Rotation rot) {
-			return state.withProperty(FACING, rot.rotate((EnumFacing) state.getValue(FACING)));
-		}
-
-		@Override
-		public IBlockState withMirror(IBlockState state, Mirror mirrorIn) {
-			return state.withRotation(mirrorIn.toRotation((EnumFacing) state.getValue(FACING)));
+			if (rot == Rotation.CLOCKWISE_90 || rot == Rotation.COUNTERCLOCKWISE_90) {
+				if ((EnumFacing) state.getValue(FACING) == EnumFacing.WEST || (EnumFacing) state.getValue(FACING) == EnumFacing.EAST) {
+					return state.withProperty(FACING, EnumFacing.UP);
+				} else if ((EnumFacing) state.getValue(FACING) == EnumFacing.UP || (EnumFacing) state.getValue(FACING) == EnumFacing.DOWN) {
+					return state.withProperty(FACING, EnumFacing.WEST);
+				}
+			}
+			return state;
 		}
 
 		@Override
@@ -88,7 +89,13 @@ public class BlockBrickswhite extends ElementsRucraftMod.ModElement {
 		@Override
 		public IBlockState getStateForPlacement(World worldIn, BlockPos pos, EnumFacing facing, float hitX, float hitY, float hitZ, int meta,
 				EntityLivingBase placer) {
-			return this.getDefaultState().withProperty(FACING, placer.getHorizontalFacing().getOpposite());
+			if (facing == EnumFacing.WEST || facing == EnumFacing.EAST)
+				facing = EnumFacing.UP;
+			else if (facing == EnumFacing.NORTH || facing == EnumFacing.SOUTH)
+				facing = EnumFacing.EAST;
+			else
+				facing = EnumFacing.SOUTH;
+			return this.getDefaultState().withProperty(FACING, facing);
 		}
 	}
 }
