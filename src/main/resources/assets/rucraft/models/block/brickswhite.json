@@ -1,12 +1,7 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "rucraft:blocks/bricks_white_bottom",
-    "up": "rucraft:blocks/bricks_white_top",
-    "north": "rucraft:blocks/bricks_white_side",
-    "east": "rucraft:blocks/bricks_white_face",
-    "south": "rucraft:blocks/bricks_white_side",
-    "west": "rucraft:blocks/bricks_white_face",
-    "particle": "rucraft:blocks/bricks_white_bottom"
+    "all": "rucraft:blocks/bricks_white_face",
+    "particle": "rucraft:blocks/bricks_white_face"
   }
 }

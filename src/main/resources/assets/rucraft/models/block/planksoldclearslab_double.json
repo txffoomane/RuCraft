@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rucraft:blocks/planks_old_clear",
+    "particle": "rucraft:blocks/planks_old_clear"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "rucraft:blocks/bricks_white",
-    "particle": "rucraft:blocks/bricks_white"
+    "all": "rucraft:blocks/bricks_white_face",
+    "particle": "rucraft:blocks/bricks_white_face"
   }
 }

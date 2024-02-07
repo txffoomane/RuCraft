@@ -1,21 +1,21 @@
 {
   "variants": {
     "normal": {
-      "model": "rucraft:brickswhite"
+      "model": "rucraft:wallpaper_1"
     },
     "facing=north": {
-      "model": "rucraft:brickswhite"
+      "model": "rucraft:wallpaper_1"
     },
     "facing=east": {
-      "model": "rucraft:brickswhite",
+      "model": "rucraft:wallpaper_1",
       "y": 90
     },
     "facing=south": {
-      "model": "rucraft:brickswhite",
+      "model": "rucraft:wallpaper_1",
       "y": 180
     },
     "facing=west": {
-      "model": "rucraft:brickswhite",
+      "model": "rucraft:wallpaper_1",
       "y": 270
     }
   }

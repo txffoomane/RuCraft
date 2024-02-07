@@ -12,6 +12,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.Mirror;
 import net.minecraft.util.EnumFacing;
+import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
 import net.minecraft.entity.EntityLivingBase;
@@ -28,36 +29,43 @@ import ethan.rucraft.creativetab.TabRuCraft;
 import ethan.rucraft.ElementsRucraftMod;
 
 @ElementsRucraftMod.ModElement.Tag
-public class BlockBrickswhite extends ElementsRucraftMod.ModElement {
-	@GameRegistry.ObjectHolder("rucraft:brickswhite")
+public class BlockGlassblockgreen extends ElementsRucraftMod.ModElement {
+	@GameRegistry.ObjectHolder("rucraft:glassblockgreen")
 	public static final Block block = null;
-	public BlockBrickswhite(ElementsRucraftMod instance) {
-		super(instance, 1);
+	public BlockGlassblockgreen(ElementsRucraftMod instance) {
+		super(instance, 76);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("brickswhite"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("glassblockgreen"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("rucraft:brickswhite", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0,
+				new ModelResourceLocation("rucraft:glassblockgreen", "inventory"));
 	}
 	public static class BlockCustom extends Block {
 		public static final PropertyDirection FACING = BlockHorizontal.FACING;
 		public BlockCustom() {
-			super(Material.ROCK);
-			setUnlocalizedName("brickswhite");
-			setSoundType(SoundType.STONE);
+			super(Material.GLASS);
+			setUnlocalizedName("glassblockgreen");
+			setSoundType(SoundType.GLASS);
 			setHardness(1F);
 			setResistance(10F);
 			setLightLevel(0F);
 			setLightOpacity(255);
 			setCreativeTab(TabRuCraft.tab);
 			this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
+		}
+
+		@SideOnly(Side.CLIENT)
+		@Override
+		public BlockRenderLayer getBlockLayer() {
+			return BlockRenderLayer.TRANSLUCENT;
 		}
 
 		@Override
@@ -89,6 +97,11 @@ public class BlockBrickswhite extends ElementsRucraftMod.ModElement {
 		public IBlockState getStateForPlacement(World worldIn, BlockPos pos, EnumFacing facing, float hitX, float hitY, float hitZ, int meta,
 				EntityLivingBase placer) {
 			return this.getDefaultState().withProperty(FACING, placer.getHorizontalFacing().getOpposite());
+		}
+
+		@Override
+		public boolean isOpaqueCube(IBlockState state) {
+			return false;
 		}
 	}
 }

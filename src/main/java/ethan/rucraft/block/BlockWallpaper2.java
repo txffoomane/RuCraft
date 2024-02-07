@@ -24,39 +24,39 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockHorizontal;
 import net.minecraft.block.Block;
 
-import ethan.rucraft.creativetab.TabRuCraft;
+import ethan.rucraft.creativetab.TabWallpapersandfloors;
 import ethan.rucraft.ElementsRucraftMod;
 
 @ElementsRucraftMod.ModElement.Tag
-public class BlockBrickswhite extends ElementsRucraftMod.ModElement {
-	@GameRegistry.ObjectHolder("rucraft:brickswhite")
+public class BlockWallpaper2 extends ElementsRucraftMod.ModElement {
+	@GameRegistry.ObjectHolder("rucraft:wallpaper_2")
 	public static final Block block = null;
-	public BlockBrickswhite(ElementsRucraftMod instance) {
-		super(instance, 1);
+	public BlockWallpaper2(ElementsRucraftMod instance) {
+		super(instance, 79);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("brickswhite"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("wallpaper_2"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("rucraft:brickswhite", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("rucraft:wallpaper_2", "inventory"));
 	}
 	public static class BlockCustom extends Block {
 		public static final PropertyDirection FACING = BlockHorizontal.FACING;
 		public BlockCustom() {
-			super(Material.ROCK);
-			setUnlocalizedName("brickswhite");
-			setSoundType(SoundType.STONE);
+			super(Material.CLOTH);
+			setUnlocalizedName("wallpaper_2");
+			setSoundType(SoundType.CLOTH);
 			setHardness(1F);
 			setResistance(10F);
 			setLightLevel(0F);
 			setLightOpacity(255);
-			setCreativeTab(TabRuCraft.tab);
+			setCreativeTab(TabWallpapersandfloors.tab);
 			this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
 		}
 

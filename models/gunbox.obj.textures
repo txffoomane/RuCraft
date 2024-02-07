@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Material": "gunbox"
+      },
+      "name": "default"
+    }
+  }
+}

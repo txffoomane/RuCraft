@@ -2,12 +2,12 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "bricks_white_face",
-    "textureTop": "bricks_white_top",
-    "textureLeft": "bricks_white_face",
-    "textureFront": "bricks_white_side",
-    "textureRight": "bricks_white_face",
-    "textureBack": "bricks_white_side",
+    "texture": "wallpaper_0",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 1,
@@ -32,14 +32,14 @@
         "subtract": false
       }
     ],
-    "name": "Bricks white",
+    "name": "Wallpaper 0",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:RuCraft"
+      "value": "CUSTOM:Wallpapersandfloors"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -52,7 +52,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "CLOTH"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -72,7 +72,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "CLOTH"
     },
     "luminance": 0,
     "unbreakable": false,

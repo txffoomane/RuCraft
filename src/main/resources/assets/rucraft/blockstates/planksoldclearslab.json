@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "rucraft:planksoldclearslab"
+    },
+    "half=top,variant=default": {
+      "model": "rucraft:planksoldclearslab_top"
+    }
+  }
+}

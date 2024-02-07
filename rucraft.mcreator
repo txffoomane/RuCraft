@@ -738,6 +738,86 @@
       "ids": {},
       "registry_name": "bricksredverticalslab",
       "path": "~/Blocks"
+    },
+    {
+      "name": "Glassblockgreen",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glassblockgreen",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Wallpapersandfloors",
+      "type": "tab",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wallpapersandfloors",
+      "path": "~/Blocks/Wallpapers"
+    },
+    {
+      "name": "Wallpaper0",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wallpaper_0",
+      "path": "~/Blocks/Wallpapers"
+    },
+    {
+      "name": "Wallpaper1",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wallpaper_1",
+      "path": "~/Blocks/Wallpapers"
+    },
+    {
+      "name": "Wallpaper2",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wallpaper_2",
+      "path": "~/Blocks/Wallpapers"
+    },
+    {
+      "name": "Planksoldclear",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "planksoldclear",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Planksoldclearstairs",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "planksoldclearstairs",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Planksoldclearslab",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "planksoldclearslab",
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
@@ -753,15 +833,19 @@
       "tile.concretepaintedgreen.name": "Зелёный крашеный бетон",
       "tile.brickswhiteverticalstairs.name": "Ступеньки из вертикальных белых кирпичей",
       "tile.concretepaintedblueslab.name": "Плита из крашеного синего бетона",
+      "tile.planksoldclearstairs.name": "Planks old clear stairs",
       "tile.concretepaintedbluedestroed.name": "Синий крашеный разбитый бетон",
       "tile.brickswhitevertical.name": "Вертикальные белые кирпичи",
       "tile.asphaltdoublelinestairs.name": "Ступеньки из асфальта (двойная линия)",
+      "tile.planksoldclear.name": "Planks old clear",
+      "itemGroup.tabwallpapersandfloors": "Обои и полы",
       "tile.concretepaintedredslab.name": "Плита из крашеного красного бетона",
       "itemGroup.tabru_craft_nature": "RuCraft: Растения ",
       "tile.concretepaintedredstairs.name": "Ступеньки из крашеного красного бетона",
       "tile.concreteslab.name": "Плита из бетона",
       "tile.asphalt.name": "Асфальт",
       "tile.asphaltdoubleline.name": "Асфальт (двойная линия)",
+      "tile.planksoldclearslab.name": "Planks old clear slab",
       "tile.asphaltdoublelineslab.name": "Плита из асфальта (двойная линия)",
       "tile.cinderblockslab.name": "Плита из шлакоблока",
       "tile.asphaltstairs.name": "Ступеньки из асфальта",
@@ -784,7 +868,9 @@
       "tile.planksoldstairs.name": "Ступеньки из старых досок",
       "tile.concretepaintedbluestairs.name": "Ступеньки из крашеного синего бетона",
       "tile.osb.name": "ОСП",
+      "tile.wallpaper_1.name": "Обои 1",
       "tile.slatestairs.name": "Ступеньки из шифера",
+      "tile.glassblockgreen.name": "Зелёный стеклоблок",
       "tile.concretepaintedreddestroed.name": "Красный крашеный разбитый бетон",
       "tile.cinderblockstairs.name": "Ступеньки из шлакоблока",
       "tile.concrete.name": "Бетон",
@@ -793,6 +879,7 @@
       "tile.metalrustslab.name": "Ступеньки из ржавого метала ",
       "tile.sidewalkstairs.name": "Ступеньки из тротуара",
       "tile.concretepaintedgreendestroedstairs.name": "Ступеньки из крашеного зелёного разбитого бетона",
+      "tile.wallpaper_2.name": "Обои 2",
       "itemGroup.tabru_craft": "RuCraft",
       "tile.concretepaintedblue.name": "Синий крашеный бетон",
       "tile.concretepaintedgreendestroedslab.name": "Плита из крашеного зелёного разбитого бетона",
@@ -805,6 +892,7 @@
       "tile.slateslab.name": "Плита из шифера",
       "tile.bricksredvertical.name": "Вертикальные красные кирпичи",
       "tile.bricksredverticalstairs.name": "Ступеньки из вертикальных красных кирпичей",
+      "tile.wallpaper_0.name": "Обои 0",
       "tile.concretepaintedwhiteslab.name": "Плита из крашеного белого бетона",
       "tile.slate.name": "Шифер",
       "tile.concretepaintedwhitestairs.name": "Ступеньки из крашеного белого бетона",
@@ -829,15 +917,19 @@
       "tile.concretepaintedgreen.name": "Concrete painted green",
       "tile.brickswhiteverticalstairs.name": "Bricks white vertical stairs",
       "tile.concretepaintedblueslab.name": "Concrete painted blue slab",
+      "tile.planksoldclearstairs.name": "Planks old clear stairs",
       "tile.concretepaintedbluedestroed.name": "Concrete painted blue destroed",
       "tile.brickswhitevertical.name": "Bricks white vertical",
       "tile.asphaltdoublelinestairs.name": "Asphalt double line stairs",
+      "tile.planksoldclear.name": "Planks old clear",
+      "itemGroup.tabwallpapersandfloors": "Wallpapers and floors",
       "itemGroup.tabru_craft_nature": "RuCraft: Nature",
       "tile.concretepaintedredslab.name": "Concrete painted red slab",
       "tile.concretepaintedredstairs.name": "Concrete painted red stairs",
       "tile.concreteslab.name": "Concrete slab",
       "tile.asphalt.name": "Asphalt",
       "tile.asphaltdoubleline.name": "Asphalt double line",
+      "tile.planksoldclearslab.name": "Planks old clear slab",
       "tile.asphaltdoublelineslab.name": "Asphalt double line slab",
       "tile.cinderblockslab.name": "Cinderblock slab",
       "tile.asphaltstairs.name": "Asphalt stairs",
@@ -860,7 +952,9 @@
       "tile.planksoldstairs.name": "Planks old stairs",
       "tile.concretepaintedbluestairs.name": "Concrete painted blue stairs",
       "tile.osb.name": "Osb",
+      "tile.wallpaper_1.name": "Wallpaper 1",
       "tile.slatestairs.name": "Slate stairs",
+      "tile.glassblockgreen.name": "Glassblock green",
       "tile.cinderblockstairs.name": "Cinderblock stair",
       "tile.concretepaintedreddestroed.name": "Concrete painted red destroed",
       "tile.concrete.name": "Concrete",
@@ -869,6 +963,7 @@
       "tile.metalrustslab.name": "Metal rust stairs",
       "tile.sidewalkstairs.name": "Sidewalk stairs",
       "tile.concretepaintedgreendestroedstairs.name": "Concrete painted green destroed stairs",
+      "tile.wallpaper_2.name": "Wallpaper 2",
       "itemGroup.tabru_craft": "RuCraft:Blocks",
       "tile.concretepaintedblue.name": "Concrete painted blue",
       "tile.concretepaintedgreendestroedslab.name": "Concrete painted green destroed slab",
@@ -881,6 +976,7 @@
       "tile.slateslab.name": "Slate slab",
       "tile.bricksredvertical.name": "Bricks red vertical",
       "tile.bricksredverticalstairs.name": "Bricks red vertical stairs",
+      "tile.wallpaper_0.name": "Wallpaper 0",
       "tile.concretepaintedwhiteslab.name": "Concrete painted white slab",
       "tile.slate.name": "Slate",
       "tile.concretepaintedwhitestairs.name": "Concrete painted white stairs",
@@ -892,7 +988,7 @@
       "tile.linoleumstairs.name": "Linoleum stairs",
       "tile.bricksred.name": "Bricks red",
       "tile.concretepaintedwhite.name": "Concrete painted white",
-      "tile.concretepaintedgreenslab.name": " Concrete painted green slab",
+      "tile.concretepaintedgreenslab.name": "Concrete painted green slab",
       "tile.concretepaintedreddestroedstairs.name": "Concrete painted red destroed stairs"
     }
   },
@@ -901,7 +997,12 @@
     "children": [
       {
         "name": "Blocks",
-        "children": []
+        "children": [
+          {
+            "name": "Wallpapers",
+            "children": []
+          }
+        ]
       }
     ]
   },

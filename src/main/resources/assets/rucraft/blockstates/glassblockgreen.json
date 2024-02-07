@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "rucraft:glassblockgreen"
+    },
+    "facing=north": {
+      "model": "rucraft:glassblockgreen"
+    },
+    "facing=east": {
+      "model": "rucraft:glassblockgreen",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rucraft:glassblockgreen",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rucraft:glassblockgreen",
+      "y": 270
+    }
+  }
+}

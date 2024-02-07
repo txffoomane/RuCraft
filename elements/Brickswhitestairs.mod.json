@@ -2,7 +2,7 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "bricks_white",
+    "texture": "bricks_white_face",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
