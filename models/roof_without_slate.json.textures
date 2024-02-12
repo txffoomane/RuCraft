@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "Material": "gunbox"
+        "0": "planks_old"
       },
       "name": "default"
     }

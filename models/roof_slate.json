@@ -1,0 +1,199 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "planks_old",
+		"1": "slate",
+		"particle": "planks_old"
+	},
+	"elements": [
+		{
+			"name": "Доски",
+			"from": [-4, 13.11719, 2],
+			"to": [20, 14.11719, 5],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 12.5, 15.5]},
+			"faces": {
+				"north": {"uv": [0.25, 0, 1, 16], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 0.5], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 0.5], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 0.5], "texture": "#0"},
+				"up": {"uv": [0, 0, 3, 16], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 0, 3, 16], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Доски",
+			"from": [-4, -1.88281, 2],
+			"to": [19.9, 1.11719, 5],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, -0.5, 2.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 3, 16], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0, 0, 3.5, 3.5], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 2], "texture": "#0"},
+				"west": {"uv": [0, 0, 3.5, 3.5], "texture": "#0"},
+				"up": {"uv": [0, 0, 3, 16], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 0, 3, 16], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Доски",
+			"from": [-3, -3.62132, -1.57107],
+			"to": [0, 7.37868, 21.17893],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 6, 9]},
+			"faces": {
+				"north": {"uv": [0, 14.25, 6.75, 16], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0, 0, 6.75, 16], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0, 14.25, 6.75, 16], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [0, 0, 6.75, 16], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0.25, 0, 3, 16], "texture": "#0"},
+				"down": {"uv": [0.25, 0, 3, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Доски",
+			"from": [16, -3.62132, -1.57107],
+			"to": [18.9, 7.37868, 21.17893],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 6, 9]},
+			"faces": {
+				"north": {"uv": [0, 14.25, 6.75, 16], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0, 0, 6.75, 16], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0, 14.25, 6.75, 16], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [0, 0, 6.75, 16], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0.25, 0, 3, 16], "texture": "#0"},
+				"down": {"uv": [0.25, 0, 3, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Доски",
+			"from": [-4, 11.11719, 14],
+			"to": [19.9, 14.11719, 17],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 12.5, 15.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 3, 16], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0, 0, 3.5, 3.5], "texture": "#0"},
+				"south": {"uv": [0, 0, 3, 16], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [0, 0, 3.5, 3.5], "texture": "#0"},
+				"up": {"uv": [0, 0, 3, 16], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 0, 3, 16], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Доски",
+			"from": [-4, 13.11719, 8],
+			"to": [20, 14.11719, 11],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 12.5, 15.5]},
+			"faces": {
+				"north": {"uv": [0.25, 0, 1, 16], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 0.5], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 0.5], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 0.5], "texture": "#0"},
+				"up": {"uv": [0, 0, 3, 16], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 0, 3, 16], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Шифер",
+			"from": [12, -2.98324, 7.38778],
+			"to": [16, 19.77457, 8.13778],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 8.3527, 7.64559]},
+			"faces": {
+				"north": {"uv": [12, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 0.25, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 3.75, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 0.25, 16], "texture": "#1"},
+				"up": {"uv": [12, 0, 16, 0.75], "texture": "#1"},
+				"down": {"uv": [12, 0, 16, 0.75], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Шифер",
+			"from": [4, -2.98324, 7.38778],
+			"to": [8, 19.77457, 8.13778],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 8.3527, 7.64559]},
+			"faces": {
+				"north": {"uv": [4.25, 0, 8.25, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 0.25, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 3.75, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 0.25, 16], "texture": "#1"},
+				"up": {"uv": [12, 0, 16, 0.75], "texture": "#1"},
+				"down": {"uv": [12, 0, 16, 0.75], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Шифер",
+			"from": [8, -2.98324, 7.88778],
+			"to": [12, 19.77457, 8.63778],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 8.3527, 7.64559]},
+			"faces": {
+				"north": {"uv": [8.25, 0, 12.25, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 0.25, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 3.75, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 0.25, 16], "texture": "#1"},
+				"up": {"uv": [12, 0, 16, 0.75], "texture": "#1"},
+				"down": {"uv": [12, 0, 16, 0.75], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Шифер",
+			"from": [0, -2.98324, 7.88778],
+			"to": [4, 19.77457, 8.63778],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 8.3527, 7.64559]},
+			"faces": {
+				"north": {"uv": [8.25, 0, 12.25, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 0.25, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 3.75, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 0.25, 16], "texture": "#1"},
+				"up": {"uv": [12, 0, 16, 0.75], "texture": "#1"},
+				"down": {"uv": [12, 0, 16, 0.75], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [30, 225, 0],
+			"translation": [1.25, 0.5, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [30, 225, 0],
+			"translation": [1.25, 0.5, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [1.25, 1, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "Доски",
+			"origin": [8, 12.5, 15.5],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5]
+		},
+		{
+			"name": "Шифер",
+			"origin": [8, 6, 9],
+			"color": 1,
+			"children": [6, 7, 8, 9]
+		}
+	]
+}

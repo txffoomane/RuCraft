@@ -641,15 +641,6 @@
       "path": "~/Blocks"
     },
     {
-      "name": "RuCraftNature",
-      "type": "tab",
-      "sortid": 75,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ru_craft_nature"
-    },
-    {
       "name": "Linoleum",
       "type": "block",
       "sortid": 64,
@@ -790,33 +781,53 @@
       "path": "~/Blocks/Wallpapers"
     },
     {
-      "name": "Planksoldclear",
+      "name": "Roofslate",
       "type": "block",
       "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "planksoldclear",
-      "path": "~/Blocks"
+      "registry_name": "roofslate",
+      "path": "~/Model"
     },
     {
-      "name": "Planksoldclearstairs",
+      "name": "Roofwithoutslate",
       "type": "block",
       "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "planksoldclearstairs",
-      "path": "~/Blocks"
+      "registry_name": "roofwithoutslate",
+      "path": "~/Model"
     },
     {
-      "name": "Planksoldclearslab",
+      "name": "Roofslateflat",
       "type": "block",
       "sortid": 82,
       "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "roofslateflat",
+      "path": "~/Model"
+    },
+    {
+      "name": "Roofwithoutslateflat",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "roofwithoutslateflat",
+      "path": "~/Model"
+    },
+    {
+      "name": "Lenoleum1",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "planksoldclearslab",
+      "registry_name": "lenoleum_1",
       "path": "~/Blocks"
     }
   ],
@@ -833,27 +844,26 @@
       "tile.concretepaintedgreen.name": "Зелёный крашеный бетон",
       "tile.brickswhiteverticalstairs.name": "Ступеньки из вертикальных белых кирпичей",
       "tile.concretepaintedblueslab.name": "Плита из крашеного синего бетона",
-      "tile.planksoldclearstairs.name": "Planks old clear stairs",
       "tile.concretepaintedbluedestroed.name": "Синий крашеный разбитый бетон",
       "tile.brickswhitevertical.name": "Вертикальные белые кирпичи",
       "tile.asphaltdoublelinestairs.name": "Ступеньки из асфальта (двойная линия)",
-      "tile.planksoldclear.name": "Planks old clear",
       "itemGroup.tabwallpapersandfloors": "Обои и полы",
       "tile.concretepaintedredslab.name": "Плита из крашеного красного бетона",
-      "itemGroup.tabru_craft_nature": "RuCraft: Растения ",
+      "tile.lenoleum_1.name": "Lenoleum 1",
       "tile.concretepaintedredstairs.name": "Ступеньки из крашеного красного бетона",
       "tile.concreteslab.name": "Плита из бетона",
       "tile.asphalt.name": "Асфальт",
       "tile.asphaltdoubleline.name": "Асфальт (двойная линия)",
-      "tile.planksoldclearslab.name": "Planks old clear slab",
       "tile.asphaltdoublelineslab.name": "Плита из асфальта (двойная линия)",
       "tile.cinderblockslab.name": "Плита из шлакоблока",
       "tile.asphaltstairs.name": "Ступеньки из асфальта",
       "tile.asphaltlineslab.name": "Плита из асфальта (линия)",
       "tile.planksold.name": "Старые доски",
+      "tile.roofwithoutslate.name": "Roo fwithout slate",
       "tile.concretepaintedbluedestroedstairs.name": "Ступеньки из крашеного синего разбитого бетона",
       "tile.metalruststairs.name": "Ступеньки из ржавого метала",
       "tile.bricksredverticalslab.name": "Плита из вертикальных красных кирпичей",
+      "tile.roofslate.name": "Roof slate",
       "tile.bricksredstairs.name": "Ступеньки из красных кирпичей",
       "tile.asphaltline.name": "Асфальт (линия)",
       "tile.linoleum.name": "Линолиум",
@@ -886,6 +896,7 @@
       "tile.concretepaintedgreendestroed.name": "Зелёный крашеный разбитый бетон",
       "tile.corrugatedsheetsslab.name": "Плита из профнастила",
       "tile.asphaltslab.name": "Плита из асфальта",
+      "tile.roofslateflat.name": "Roof slate flat",
       "tile.concretepaintedreddestroedslab.name": "Плита из крашеного красного разбитого бетона",
       "tile.bricksredslab.name": "Плита из красного кирпича",
       "tile.sidewalkslab.name": "Плита из тротуара",
@@ -905,7 +916,8 @@
       "tile.bricksred.name": "Красные кирпичи",
       "tile.concretepaintedwhite.name": "Белый крашеный бетон",
       "tile.concretepaintedgreenslab.name": "Плита из крашеного зеленого бетона",
-      "tile.concretepaintedreddestroedstairs.name": "Ступеньки из крашеного красного разбитого бетона"
+      "tile.concretepaintedreddestroedstairs.name": "Ступеньки из крашеного красного разбитого бетона",
+      "tile.roofwithoutslateflat.name": "Roof without slate flat"
     },
     "en_us": {
       "tile.sidewalk.name": "Sidewalk",
@@ -917,27 +929,26 @@
       "tile.concretepaintedgreen.name": "Concrete painted green",
       "tile.brickswhiteverticalstairs.name": "Bricks white vertical stairs",
       "tile.concretepaintedblueslab.name": "Concrete painted blue slab",
-      "tile.planksoldclearstairs.name": "Planks old clear stairs",
       "tile.concretepaintedbluedestroed.name": "Concrete painted blue destroed",
       "tile.brickswhitevertical.name": "Bricks white vertical",
       "tile.asphaltdoublelinestairs.name": "Asphalt double line stairs",
-      "tile.planksoldclear.name": "Planks old clear",
       "itemGroup.tabwallpapersandfloors": "Wallpapers and floors",
-      "itemGroup.tabru_craft_nature": "RuCraft: Nature",
       "tile.concretepaintedredslab.name": "Concrete painted red slab",
+      "tile.lenoleum_1.name": "Lenoleum 1",
       "tile.concretepaintedredstairs.name": "Concrete painted red stairs",
       "tile.concreteslab.name": "Concrete slab",
       "tile.asphalt.name": "Asphalt",
       "tile.asphaltdoubleline.name": "Asphalt double line",
-      "tile.planksoldclearslab.name": "Planks old clear slab",
       "tile.asphaltdoublelineslab.name": "Asphalt double line slab",
       "tile.cinderblockslab.name": "Cinderblock slab",
       "tile.asphaltstairs.name": "Asphalt stairs",
       "tile.asphaltlineslab.name": "Asphalt line slab",
       "tile.planksold.name": "Planks old",
+      "tile.roofwithoutslate.name": "Roo fwithout slate",
       "tile.concretepaintedbluedestroedstairs.name": "Concrete painted blue destroed stairs",
       "tile.metalruststairs.name": "Metal rust stairs",
       "tile.bricksredverticalslab.name": "Bricks red vertical slab",
+      "tile.roofslate.name": "Roof slate",
       "tile.bricksredstairs.name": "Bricks red stairs",
       "tile.asphaltline.name": "Asphalt line",
       "tile.linoleum.name": "Linoleum",
@@ -970,6 +981,7 @@
       "tile.concretepaintedgreendestroed.name": "Concrete painted green destroed",
       "tile.corrugatedsheetsslab.name": "Corrugated sheets slab",
       "tile.asphaltslab.name": "Asphalt slab",
+      "tile.roofslateflat.name": "Roof slate flat",
       "tile.concretepaintedreddestroedslab.name": "Concrete painted red destroed slab",
       "tile.bricksredslab.name": "Bricks red slab",
       "tile.sidewalkslab.name": "Sidewalk slab",
@@ -989,7 +1001,8 @@
       "tile.bricksred.name": "Bricks red",
       "tile.concretepaintedwhite.name": "Concrete painted white",
       "tile.concretepaintedgreenslab.name": "Concrete painted green slab",
-      "tile.concretepaintedreddestroedstairs.name": "Concrete painted red destroed stairs"
+      "tile.concretepaintedreddestroedstairs.name": "Concrete painted red destroed stairs",
+      "tile.roofwithoutslateflat.name": "Roof without slate flat"
     }
   },
   "foldersRoot": {
@@ -1003,6 +1016,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Model",
+        "children": []
       }
     ]
   },
@@ -1013,7 +1030,7 @@
     "description": "https://discord.gg/baKFT47xFQ",
     "author": "Ethan",
     "websiteURL": "https://discord.gg/baKFT47xFQ",
-    "license": "Academic Free License v3.0",
+    "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],

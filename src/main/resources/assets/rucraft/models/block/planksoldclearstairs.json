@@ -1,8 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "rucraft:blocks/planks_old_clear",
-    "top": "rucraft:blocks/planks_old_clear",
-    "side": "rucraft:blocks/planks_old_clear"
-  }
-}

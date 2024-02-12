@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "planks_old",
+        "1": "slate"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "rucraft:lenoleum_1"
+    },
+    "facing=north": {
+      "model": "rucraft:lenoleum_1"
+    },
+    "facing=east": {
+      "model": "rucraft:lenoleum_1",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rucraft:lenoleum_1",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rucraft:lenoleum_1",
+      "y": 270
+    }
+  }
+}

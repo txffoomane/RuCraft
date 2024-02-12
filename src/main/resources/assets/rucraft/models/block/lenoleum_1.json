@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rucraft:blocks/linoleum_1",
+    "up": "rucraft:blocks/linoleum_1",
+    "north": "rucraft:blocks/linoleum_1",
+    "east": "rucraft:blocks/linoleum_1",
+    "south": "rucraft:blocks/linoleum_1",
+    "west": "rucraft:blocks/linoleum_1",
+    "particle": "rucraft:blocks/linoleum_1"
+  }
+}

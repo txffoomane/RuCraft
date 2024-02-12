@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "rucraft:roofslate"
+    },
+    "facing=north": {
+      "model": "rucraft:roofslate"
+    },
+    "facing=east": {
+      "model": "rucraft:roofslate",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rucraft:roofslate",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rucraft:roofslate",
+      "y": 270
+    }
+  }
+}

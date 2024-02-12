@@ -1,0 +1,9 @@
+{
+  "parent": "rucraft:custom/roof_slate_flat",
+  "textures": {
+    "all": "rucraft:blocks/slate",
+    "particle": "rucraft:blocks/slate",
+    "0": "rucraft:blocks/planks_old",
+    "1": "rucraft:blocks/slate"
+  }
+}
